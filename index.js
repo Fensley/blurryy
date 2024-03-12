@@ -11,7 +11,7 @@ function blurryimg(){
   }
    loading.innerHTML= `${blurry}%`
    loading.style.opacity = scale(blurry , 0 , 100,1,0)
-  bg.style.filter = `blur(${scale(blurry, 0, 100, 30, 0)}px)`
+  bg.style.filter = `blur(${scale(blurry, 0, 100,30, 0)}px)`
 }
 
 // i used stack overflow to map the number out 
